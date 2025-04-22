@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="freegemslogo.webp">
+    <link rel="stylesheet" href="rewards.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FreeGems.xyz</title>
+</head>
+
+<body>
+    <!-- pop up cards -->
+
+    <div class="outofstock">
+        <div class="stock-card">
+            Sorry!! Currently out of stock
+            <button id="stock-btn">OK</button>
+        </div>
+    </div>
+    <div class="notenoughgems">
+        <div class="enough-card">
+            Sorry!! You donot have enough gems to exchange that reward.
+            <button id="enough-btn">OK</button>
+        </div>
+    </div>
+
+
+
+    <!-- header section -->
+    <nav>
+        <div class="see">
+            <img src="../../imgs/freegemslogo.webp" width="55px">
+            <h3>FreeGems.xyz</h3>
+        </div>
+        <div class="hero">
+            <a href="/">Home</a>
+            <a href="/rewards">Rewards</a>
+        </div>
+    </nav>
+
+    <!-- rewards section -->
+
+    <div class="rewards-sec">
+        <h3 align="center" id="rewards-header">Rewards</h3>
+        <p align="center" id="rewards-p">Exchange the Premium Rewards by using the Gems </p>
+    </div>
+
+    <!-- rewards cards -->
+    <div class="rewards-cards">
+        <div class="reward-card">
+            <img src="../../imgs/minecraft-logo.png" height="150px">
+            <span id="re-ti">Minecraft</span>
+            <p align="center">Includes both Minecraft Java and Bedrock for Lifetime</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="minecraftPrice"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="minecraft-btn">Exchange</button>
+        </div>
+
+        <div class="reward-card">
+            <img src="../../imgs/freefire-logo.png" width="200px">
+            <span id="re-ti" align="center">Free Fire</span>
+            <p align="center">500 Diamonds top-up</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="ff500Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="diamonds-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="../../imgs/freefire-logo.png" width="200px">
+            <span id="re-ti" align="center">Free Fire</span>
+            <p align="center">1000 Diamonds top-up</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="ff1000Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="diamondss-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="../../imgs/roblox-logo.png" width="130px">
+            <span id="re-ti" align="center">Roblox</span>
+            <p align="center">1000 Robux top-up</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="roblox1000Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="roblox-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="https://pngimg.com/d/fortnite_PNG19.png" width="130px">
+            <span id="re-ti" align="center">Fortnite</span>
+            <p align="center">1000 v-box top-up</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="vbox1000Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="fortnite-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="../../imgs/google-logo.webp" width="100px">
+            <span id="re-ti" align="center">Google Play Card</span>
+            <p align="center">$10</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="google5Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="google-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="../../imgs/google-logo.webp" width="100px">
+            <span id="re-ti" align="center">Google Play Card</span>
+            <p align="center">$50</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="google10Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="googlee-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="../../imgs/amazon-logo.png" width="150px">
+            <span id="re-ti" align="center">Amazon Gift Card</span>
+            <p align="center">$10</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="amazon10Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="amazon-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="../../imgs/amazon-logo.png" width="150px">
+            <span id="re-ti" align="center">Amazon Gift Card</span>
+            <p align="center">$50</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="amazon50Price"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="amazonn-btn">Exchange</button>
+        </div>
+        <div class="reward-card">
+            <img src="../../imgs/paypal-logo.png" width="100px">
+            <span id="re-ti" align="center">Paypal Balance</span>
+            <p align="center">$100</p>
+            <p style="font-size: 25px; margin-bottom: 20px;"><span id="paypalPrice"></span><img
+                    src="../../imgs/freegemslogo.webp" width="25px"></p>
+            <button id="paypal-btn">Exchange</button>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <img src="../../imgs/freegemslogo.webp" width="70px">
+        <span>Copyright &copy; || All Rights Reserved by FreeGems.xyz</span>
+    </div>
+</body>
+<script src="../../scripts/script.js"></script>
+
+<script src="rewards.js"></script>
+</body>
+
+</html>

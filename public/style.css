@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: white;
+    background: black;
+}
+
+nav {
+    padding: 30px 70px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.see {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .hero a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    outline: 0;
+}
+
+h2[align="center"] {
+    margin: 30px 0px 0px 5px;
+    font-size: 3rem;
+    display: block;
+}
+
+p[align="center"] {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+.watch-ads {
+    margin: 40px 100px;
+}
+
+.watch-ads h3 {
+    font-size: 1.5rem;
+}
+
+.card {
+    background-color: rgb(29, 29, 29);
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgba(74, 74, 225, 0);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 3px solid rgba(74, 74, 225, 100);
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.maha {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.maha h4 {
+    display: inline;
+    font-size: 20px;
+}
+
+h3[forstyle="howweearn"] {
+    margin: 50px 0px 0px 100px;
+}
+
+p[for="howweearn"] {
+    margin: 5px 10px 0px 100px;
+}
+
+.footer {
+    background: rgb(29, 29, 29);
+    padding: 50px 10px 50px 0px;
+    margin: 100px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.disable {
+    background-color: rgb(74, 74, 225);
+    text-decoration: line-through;
+    cursor: not-allowed;
+}
+
+.isDisable {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1000px){
+    h2[align="center"]{
+        font-size: 3rem;
+    }
+
+    nav h3 {
+        font-size: 27px;
+    }
+
+    p[align="center"]{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .watch-ads {
+        margin: 20px 50px;
+    }
+
+    nav{
+        padding: 30px 50px;
+    }
+
+    h3[forstyle="howweearn"] {
+        margin: 50px 10px 0px 50px;
+    }
+    
+    p[for="howweearn"] {
+        margin: 5px 10px 0px 50px;
+    }
+
+    h2[align="center"]{
+        font-size: 30px;
+    }
+
+    p[align="center"]{
+        font-size: 1.5rem;
+    }
+    .watch-ads h3 {
+        font-size: 1.3rem;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h2[align="center"]{
+        font-size: 24px;
+    }
+
+    p[align="center"]{
+        font-size: 1.1rem;
+    }
+    .watch-ads h3 {
+        font-size: 1.3rem;
+    }
+
+    .watch-ads p {
+        font-size: 1rem;
+    }
+}
