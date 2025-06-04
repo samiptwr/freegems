@@ -12,4 +12,4 @@ Gems and every essentials are stored in local storage which can be altered. Gems
 This is the first and only website that I have made responsive little bit.
 
 ## Licence
-MIT Licence is used to regulate it.
+No Licence.
